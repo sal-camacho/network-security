@@ -1,5 +1,5 @@
 # 🛡️ NIST CSF-Based Security Incident Report Analysis — ICMP DDoS Attack
-As part of the Google Cybersecurity Course, this report analyzes a network security incident using the NIST Cybersecurity Framework (CSF). The framework is used to guide response and improvement across five key domains: Identify, Protect, Detect, Respond, and Recover.
+As part of the Google Cybersecurity Certificate, this report analyzes a network security incident using the NIST Cybersecurity Framework (CSF). The framework is used to guide response and improvement across five key domains: Identify, Protect, Detect, Respond, and Recover.
 
 ## 📝 Summary
 The organization experienced a Distributed Denial of Service (DDoS) attack that disrupted internal network services for approximately two hours. A malicious actor exploited an unconfigured firewall by flooding the network with ICMP packets, overwhelming traffic flow. The incident management team responded by blocking the attack and prioritizing the restoration of critical services.
