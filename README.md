@@ -39,5 +39,5 @@ This incident highlighted the importance of firewall configuration, early detect
 
 ![Incident Report Example](incident-report-example.png)
 > Screenshot of completed incident report analysis following NIST CSF guidelines.
-![13](https://github.com/user-attachments/assets/5083324f-55d5-4024-a452-d5e44def07a8)
-![14](https://github.com/user-attachments/assets/26d3d0e0-6006-4969-a5ea-f995bc568f2a)
+![13](https://github.com/user-attachments/assets/5ac97519-7424-4189-9563-10c5fa1780bf)
+![14](https://github.com/user-attachments/assets/84f89b6e-2086-4ed9-a16b-474f868bf158)
