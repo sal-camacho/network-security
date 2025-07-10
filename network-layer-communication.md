@@ -1,3 +1,16 @@
+### 📖 Scenario Overview
+
+You are a cybersecurity analyst working at a company that specializes in providing IT services for clients. Several customers of one client reported that they were not able to access the client company's website, `www.yummyrecipesforme.com`, and saw the error “destination port unreachable” after waiting for the page to load.
+
+You are tasked with analyzing the situation and determining which network protocol was affected during this incident. You attempt to visit the website and receive the same error. To troubleshoot, you load your network analyzer tool, `tcpdump`, and reload the page. Your browser sends a query to a DNS server via the UDP protocol to retrieve the IP address for the domain name—this is part of the DNS protocol. Then, your browser uses that IP address to send an HTTPS request to the web server to display the webpage. The analyzer shows that when you send UDP packets to the DNS server, you receive ICMP packets containing the error message: **“udp port 53 unreachable.”**
+
+---
+
+### 📸 Screenshot of tcpdump Output  
+![DNS Log Screenshot](screenshots/dns-tcpdump-log.png)  
+> This log data captured from `tcpdump` supports the error investigation. It shows outbound DNS queries via UDP and incoming ICMP responses that confirm DNS traffic failure on port 53.
+![15](https://github.com/user-attachments/assets/5774eb91-1463-4934-9dbf-1287a3c5d0c8)
+
 ## 🧠 DNS and ICMP Traffic Analysis — Cybersecurity Incident Report
 
 This report investigates a DNS resolution issue where traffic to port 53 failed, resulting in ICMP error messages. The analysis uses `tcpdump` to identify protocol behavior and provide incident insights.
@@ -19,4 +32,5 @@ The incident was reported at 1:24 p.m., when several customers experienced an er
 ### 📸 Screenshot of Completed Report  
 ![DNS Incident Report Screenshot](screenshots/dns-icmp-report.png)  
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
-![15](https://github.com/user-attachments/assets/3c5fa83b-7c9c-4088-bc29-942d02aa406b)
+![16](https://github.com/user-attachments/assets/3d8ecb07-926b-4f2f-8a8a-9145103d8dae)
+
