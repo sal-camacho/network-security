@@ -22,8 +22,9 @@ The following data was captured using a packet sniffer tool and illustrates netw
 | 54  | 3.493160  | 203.0.113.0    | 192.0.2.1     | TCP      | 54770->443 [ACK] Seq=1 Win=5792 Len=0   |
 | 55  | 3.544394  | 198.51.100.14  | 192.0.2.1     | TCP      | 14785->443 [SYN] Seq=0 Win=5792 Len=120 |
 
-![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 ### 📸 Screenshot of Wireshark TCP/HTTP log
+![SYN Flood Screenshot](screenshots/syn-flood-log.png)
+
 ![17](https://github.com/user-attachments/assets/2b058a90-fd0a-4713-b2fd-d26b663d6d55)
 
 ---
