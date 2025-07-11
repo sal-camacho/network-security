@@ -24,6 +24,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 
 ### 📸 Screenshot of Wireshark TCP/HTTP log
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
+> Captured SYN flood activity in Wireshark, showing repeated TCP SYN packets from attacker IP 203.0.113.0 targeting port 443
 
 ![17](https://github.com/user-attachments/assets/2b058a90-fd0a-4713-b2fd-d26b663d6d55)
 
