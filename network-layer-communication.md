@@ -1,4 +1,4 @@
-### 📖 Scenario Overview
+## 📖 Scenario Overview
 
 You are a cybersecurity analyst working at a company that specializes in providing IT services for clients. Several customers of one client reported that they were not able to access the client company's website, `www.yummyrecipesforme.com`, and saw the error “destination port unreachable” after waiting for the page to load.
 
@@ -32,5 +32,4 @@ The incident was reported at 1:24 p.m., when several customers experienced an er
 ### 📸 Screenshot of Completed Report  
 ![DNS Incident Report Screenshot](screenshots/dns-icmp-report.png)  
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
-![16](https://github.com/user-attachments/assets/3d8ecb07-926b-4f2f-8a8a-9145103d8dae)
-
+<img width="584" height="777" alt="16" src="https://github.com/user-attachments/assets/acf239a3-32a1-4f85-85cd-906750f25e97" />
