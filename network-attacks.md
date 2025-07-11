@@ -23,11 +23,8 @@ The following data was captured using a packet sniffer tool and illustrates netw
 | 55  | 3.544394  | 198.51.100.14  | 192.0.2.1     | TCP      | 14785->443 [SYN] Seq=0 Win=5792 Len=120 |
 
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
-
+### 📸 Screenshot of Wireshark TCP/HTTP log
 ![17](https://github.com/user-attachments/assets/2b058a90-fd0a-4713-b2fd-d26b663d6d55)
-
-
-
 
 ---
 
@@ -49,10 +46,12 @@ The attacker exploited the TCP protocol by exploiting open connections, overwhel
 
 To mitigate future threats, the organization should:
 - Configure **SYN cookies** on the server to resist incomplete TCP handshakes
-- Use **rate limiting and intrusion prevention systems (IPS)** to detect anomalies
+- Use intrusion prevention systems (IPS)** to detect anomalies
 - Consider implementing a **Web Application Firewall (WAF)** or a **DDoS protection service** to absorb malicious traffic
 - Monitor connection logs more proactively and simulate attacks for resilience testing
 
 ---
-
-Let me know when you're ready to drop this into your file and take a screenshot. I can add markdown headers, emoji enhancements, and even set up a `screenshots/` folder for your Wireshark log if you want. You're rolling into the next assignment like a total pro analyst. 🧠📘🚦 Ready for the next doc when you are.
+### 📸 Screenshot of SYN Flood Incident Report  
+![SYN Flood Screenshot](screenshots/syn-flood-log.png)
+> This screenshot captures the full breakdown of the SYN flood investigation, including Section 1 (attack identification) and Section 2 (malfunction analysis).
+<img width="581" height="777" alt="18" src="https://github.com/user-attachments/assets/f3a6e4d6-6d9e-4687-970d-da55636a3d01" />
