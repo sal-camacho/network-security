@@ -40,6 +40,8 @@ Your job is to document the incident in detail, identify the network protocols u
 ---
 
 ## OS Hardening Techniques — Security Incident Report 
+This incident report was completed as part of the Google Cybersecurity Certificate. It analyzes a real-world scenario involving a compromised website and illustrates how application-layer protocols like DNS and HTTP were exploited. The report focuses on OS hardening techniques—such as strong password policies and sandboxed testing environments—to respond to and prevent brute force attacks that target administrative credentials.
+
 ## My Contributions
 
 #### Section 1: Identify the Network Protocol Involved in the Incident
