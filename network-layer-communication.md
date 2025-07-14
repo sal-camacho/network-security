@@ -11,13 +11,13 @@ You are tasked with analyzing the situation and determining which network protoc
 > This log data captured from `tcpdump` supports the error investigation. It shows outbound DNS queries via UDP and incoming ICMP responses that confirm DNS traffic failure on port 53.
 ![15](https://github.com/user-attachments/assets/5774eb91-1463-4934-9dbf-1287a3c5d0c8)
 
+---
+
 ## DNS and ICMP Traffic Analysis — Cybersecurity Incident Report
 
 This report investigates a DNS resolution issue where traffic to port 53 failed, resulting in ICMP error messages. The analysis uses `tcpdump` to identify protocol behavior and provide incident insights.
 
 ## My Contributions
-
----
 
 #### Part 1: Summary of the Problem in the DNS and ICMP Traffic Log
 
