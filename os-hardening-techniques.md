@@ -82,7 +82,7 @@ To defend against brute force attacks like the one used in this incident, the or
 ## Screenshot of Completed Report  
 ![os-hardening-report.png](screenshots/os-hardening-report.png)  
 
-> This screenshot captures the bullet-point breakdown of DNS and HTTP protocol use, incident documentation, and brute force remediation measures. 
+> This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
 
 <img width="573" height="785" alt="19" src="https://github.com/user-attachments/assets/a989d593-67a5-40aa-bec2-4bb9dd709c50" />
 
