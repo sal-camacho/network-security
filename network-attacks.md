@@ -1,14 +1,14 @@
-## 🛡️ Network Attacks — Cybersecurity Incident Report
+## Network Attacks — Cybersecurity Incident Report
 
 ---
 
-### 📖 Scenario Overview
+### Activity Overview
 
 You are a security analyst working at a travel agency that advertises promotions on its website. Employees access the site daily to search vacation packages for clients. One afternoon, your monitoring system detects an issue with the web server. You try to visit the website but encounter a connection timeout error.
 
 After using a packet sniffer to examine traffic, you observe a high volume of TCP SYN requests originating from an unfamiliar IP address. The server is overwhelmed and unable to respond properly, indicating a potential attack. You take the server offline to stabilize it and block the source IP via the firewall. However, you know the attacker can spoof other IPs. You must now report this incident, explain what type of attack occurred, how it impacted the organization, and suggest ways to prevent future attacks.
 
-## 📄 Wireshark Log Snippet
+## Wireshark Log Snippet
 The following data was captured using a packet sniffer tool and illustrates network activity leading to the service disruption. Notable patterns include repeated TCP SYN requests from 203.0.113.0 to port 443, indicating the likely presence of a TCP SYN flood attack.
 | No. | Time      | Source         | Destination   | Protocol | Info                                   |
 |-----|-----------|----------------|---------------|----------|----------------------------------------|
@@ -22,7 +22,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 | 54  | 3.493160  | 203.0.113.0    | 192.0.2.1     | TCP      | 54770->443 [ACK] Seq=1 Win=5792 Len=0   |
 | 55  | 3.544394  | 198.51.100.14  | 192.0.2.1     | TCP      | 14785->443 [SYN] Seq=0 Win=5792 Len=120 |
 
-### 📸 Screenshot of Wireshark TCP/HTTP log
+### Screenshot of Wireshark TCP/HTTP log
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 > Captured SYN flood activity in Wireshark, showing repeated TCP SYN packets from attacker IP 203.0.113.0 targeting port 443
 
@@ -30,17 +30,15 @@ The following data was captured using a packet sniffer tool and illustrates netw
 
 ---
 
-### 📝 Written Analysis
+## My Contributions
 
-#### 📌 Section 1: Attack Identification
+#### Section 1: Attack Identification
 
 The symptoms and traffic patterns observed in this incident are consistent with a **TCP SYN Flood attack**, a type of **Denial of Service (DoS)**. In a SYN flood, the attacker sends a large number of SYN (synchronization) requests to initiate a TCP handshake without completing it. The target server allocates resources to these half-open connections, leading to resource exhaustion and unresponsiveness. The unfamiliar IP generating massive SYN requests overwhelmed the server, making it unable to respond to legitimate traffic.
 
 The connection timeout experienced by employees and customers is a direct result of the server being saturated with incomplete TCP requests. This type of attack does not require the attacker to compromise the server itself—just flooding it with traffic is enough to temporarily disrupt availability. If executed across many IPs simultaneously, the attack can evolve into a **Distributed Denial of Service (DDoS)**.
 
----
-
-#### ⚠️ Section 2: Impact and Prevention
+#### Section 2: Impact and Prevention
 
 This SYN flood significantly disrupted the organization’s operations. Employees were unable to access the promotional web page used to service clients, and potential customers may have perceived the company as unreliable due to the outage. Downtime affects user trust, operational continuity, and can lead to financial losses.
 
@@ -53,7 +51,7 @@ To mitigate future threats, the organization should:
 - Monitor connection logs more proactively and simulate attacks for resilience testing
 
 ---
-### 📸 Screenshot of SYN Flood Incident Report  
+### Screenshot of SYN Flood Incident Report  
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 > This screenshot captures the full breakdown of the SYN flood investigation, including Section 1 (attack identification) and Section 2 (malfunction analysis).
 <img width="581" height="777" alt="18" src="https://github.com/user-attachments/assets/f3a6e4d6-6d9e-4687-970d-da55636a3d01" />
