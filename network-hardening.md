@@ -54,7 +54,7 @@ In this activity, you will write a security risk assessment to analyze the incid
 ---
 
 ## Screenshot of Completed Report
-![Network Hardening Report Screenshot](images/network-hardening.md)
+![Network Hardening Report Screenshot](images/network-hardening.png)
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
 <img width="594" height="778" alt="22" src="https://github.com/user-attachments/assets/bc7a9560-6911-4cce-bf75-aed1fd2ed208" />
 <img width="558" height="778" alt="23" src="https://github.com/user-attachments/assets/adbaf69f-c2d6-4416-8252-8a4f6d0de84d" />
