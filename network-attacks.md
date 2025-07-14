@@ -28,7 +28,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 
 ---
 
-## Network Attacks Report — Cybersecurity Incident Report
+## Network Attacks — Cybersecurity Incident Report
 
 ## My Contributions
 
