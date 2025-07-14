@@ -20,6 +20,8 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 ---
 
 ## NIST Security — Incident Report Analysis
+As part of the Google Cybersecurity Certificate, this report analyzes a network security incident using the NIST Cybersecurity Framework (CSF). The framework is used to guide response and improvement across five key domains: Identify, Protect, Detect, Respond, and Recover
+
 ## My Contributions
 
 ### Summary
@@ -64,4 +66,5 @@ This incident highlighted the importance of firewall configuration, early detect
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
 
 ![13](https://github.com/user-attachments/assets/5ac97519-7424-4189-9563-10c5fa1780bf)
+
 ![14](https://github.com/user-attachments/assets/84f89b6e-2086-4ed9-a16b-474f868bf158)
