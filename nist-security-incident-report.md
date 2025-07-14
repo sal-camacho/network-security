@@ -19,7 +19,7 @@ As a cybersecurity analyst, you are tasked with using this security event to cre
 
 ---
 
-NIST Security 
+NIST Security —
 ## My Contributions
 ### Summary
 The organization experienced a Distributed Denial of Service (DDoS) attack that disrupted internal network services for approximately two hours. A malicious actor exploited an unconfigured firewall by flooding the network with ICMP packets, overwhelming traffic flow. The incident management team responded by blocking the attack and prioritizing the restoration of critical services.
