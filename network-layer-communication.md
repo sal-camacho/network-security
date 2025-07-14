@@ -6,9 +6,10 @@ You are tasked with analyzing the situation and determining which network protoc
 
 ---
 
-### Screenshot of tcpdump Output  
+## Screenshot of tcpdump Output  
 ![DNS Log Screenshot](screenshots/dns-tcpdump-log.png)  
 > This log data captured from `tcpdump` supports the error investigation. It shows outbound DNS queries via UDP and incoming ICMP responses that confirm DNS traffic failure on port 53.
+
 ![15](https://github.com/user-attachments/assets/5774eb91-1463-4934-9dbf-1287a3c5d0c8)
 
 ---
@@ -31,7 +32,7 @@ The incident was reported at 1:24 p.m., when several customers experienced an er
 
 ---
 
-### Screenshot of Completed Report  
+## Screenshot of Completed Report  
 ![DNS Incident Report Screenshot](screenshots/dns-icmp-report.png)  
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
 
