@@ -29,6 +29,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 ---
 
 ## Network Attacks — Cybersecurity Incident Report
+As part of the Google Cybersecurity Certificate, this report analyzes a real-world network attack using traffic analysis and incident response best practices. It highlights how packet logs and protocol behavior expose vulnerabilities and showcases the mitigation steps used to restore service and prevent future disruptions.
 
 ## My Contributions
 
