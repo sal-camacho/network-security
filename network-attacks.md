@@ -4,6 +4,8 @@ You are a security analyst working at a travel agency that advertises promotions
 
 After using a packet sniffer to examine traffic, you observe a high volume of TCP SYN requests originating from an unfamiliar IP address. The server is overwhelmed and unable to respond properly, indicating a potential attack. You take the server offline to stabilize it and block the source IP via the firewall. However, you know the attacker can spoof other IPs. You must now report this incident, explain what type of attack occurred, how it impacted the organization, and suggest ways to prevent future attacks.
 
+---
+
 ### Wireshark Log Snippet
 The following data was captured using a packet sniffer tool and illustrates network activity leading to the service disruption. Notable patterns include repeated TCP SYN requests from 203.0.113.0 to port 443, indicating the likely presence of a TCP SYN flood attack.
 | No. | Time      | Source         | Destination   | Protocol | Info                                   |
