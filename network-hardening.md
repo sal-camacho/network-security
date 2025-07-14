@@ -18,6 +18,7 @@ In this activity, you will write a security risk assessment to analyze the incid
 
 ---
 ## Network Hardening — Security Risk Assessment Report
+This security assessment was completed as part of the Google Cybersecurity Certificate coursework. It focuses on applying network hardening tools and techniques to address discovered vulnerabilities. The report outlines proactive defense strategies using MFA, password policies, and firewall controls, alongside supporting methods like SIEM and OS hardening.
 
 ## My Contributions
 ### Part 1: Recommended Hardening Tools & Methods
