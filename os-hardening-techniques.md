@@ -39,7 +39,7 @@ Your job is to document the incident in detail, identify the network protocols u
 
 ---
 
-## OS Hardening Techniques - Security Incident Report 
+## OS Hardening Techniques — Security Incident Report 
 ## My Contributions
 
 #### Section 1: Identify the Network Protocol Involved in the Incident
