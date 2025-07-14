@@ -14,7 +14,7 @@ You are tasked with analyzing the situation and determining which network protoc
 
 ---
 
-## Network Layer Communication Report — Cybersecurity Incident Report
+## Network Layer Communication — Cybersecurity Incident Report
 
 This report investigates a DNS resolution issue where traffic to port 53 failed, resulting in ICMP error messages. The analysis uses `tcpdump` to identify protocol behavior and provide incident insights.
 
