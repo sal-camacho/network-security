@@ -41,8 +41,9 @@ Recovery efforts focused on restoring access to essential services. Going forwar
 This incident highlighted the importance of firewall configuration, early detection, and procedural coordination during an attack. Going forward, audits and continuous monitoring will play a key role in maintaining resilience.
 
 ---
-## Screenshot of CompleteD Report
+## Screenshot of Completed Report
 ![Incident Report Example](incident-report-example.png)
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
+
 ![13](https://github.com/user-attachments/assets/5ac97519-7424-4189-9563-10c5fa1780bf)
 ![14](https://github.com/user-attachments/assets/84f89b6e-2086-4ed9-a16b-474f868bf158)
