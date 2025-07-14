@@ -17,7 +17,7 @@ If no action is taken to address these vulnerabilities, the organization is at r
 In this activity, you will write a security risk assessment to analyze the incident and explain what methods can be used to further secure the network.
 
 ---
-## Network Hardening Report - Cybersecurity Incident Report
+## Network Hardening Report - Security Risk Assesment Report
 
 ## My Contributions
 ### Part 1: Recommended Hardening Tools & Methods
