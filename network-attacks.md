@@ -27,6 +27,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 ![17](https://github.com/user-attachments/assets/2b058a90-fd0a-4713-b2fd-d26b663d6d55)
 
 ---
+
 ## Syn Flood Incident Report - Cybersecurity Incident Report
 
 ## My Contributions
@@ -50,6 +51,7 @@ To mitigate future threats, the organization should:
 - Monitor connection logs more proactively and simulate attacks for resilience testing
 
 ---
+
 ## Screenshot of Completed Report  
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
