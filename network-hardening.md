@@ -1,13 +1,14 @@
-# 🛡️ Security Risk Assessment Report
+# Activity Overview
 
-## 📘 Scenario Summary
+## Security Risk Assessment Report
+
 Following a major data breach, a social media organization has uncovered four critical network vulnerabilities. This report analyzes those issues and proposes key hardening tools and methods to strengthen the organization’s security posture and prevent future incidents.
 
 ---
+## My Contributions
+### Part 1: Recommended Hardening Tools & Methods
 
-## 🔧 Part 1: Recommended Hardening Tools & Methods
-
-### 🛠 Tools
+#### Tools
 - **Multi-Factor Authentication (MFA):**  
   Requires two or more verification methods (e.g., passwords, fingerprints, OTPs), adding depth to identity validation.
 
@@ -17,7 +18,7 @@ Following a major data breach, a social media organization has uncovered four cr
 - **Firewall Maintenance:**  
   Regular rule reviews and traffic filtering prevent unauthorized access and block suspicious activity.
 
-### 📐 Methods
+#### Methods
 - **Security Information and Event Management (SIEM):**  
   Monitors network-wide activity for anomalies and supports incident response. Enables daily inspection and analysis of logs.
 
@@ -27,9 +28,7 @@ Following a major data breach, a social media organization has uncovered four cr
 - **Network Hardening:**  
   Includes port filtering, encryption standards, and access privilege management to secure traffic and limit unauthorized exposure.
 
----
-
-## 🔍 Part 2: Justification of Recommendations
+### Part 2: Justification of Recommendations
 
 - **MFA** reduces attack surface by requiring more than just a password, which helps block brute force and minimizes internal misuse.
 - **Password Policies** address multiple vulnerabilities: shared credentials, default passwords, and weak login behavior. Regular updates (every 90 days) support secure access.
@@ -40,5 +39,5 @@ Following a major data breach, a social media organization has uncovered four cr
 
 ---
 
-## 📷 Screenshot — Home Asset Inventory Overview
+## Screenshot — Home Asset Inventory Overview
 ![Home Asset Inventory](images/home-asset-inventory
