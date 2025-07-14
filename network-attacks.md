@@ -50,7 +50,7 @@ To mitigate future threats, the organization should:
 - Monitor connection logs more proactively and simulate attacks for resilience testing
 
 ---
-### Screenshot of SYN Flood Incident Report  
+### Screenshot of Completed Report  
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 > This screenshot captures the full breakdown of the SYN flood investigation, including Section 1 (attack identification) and Section 2 (malfunction analysis).
 <img width="581" height="777" alt="18" src="https://github.com/user-attachments/assets/f3a6e4d6-6d9e-4687-970d-da55636a3d01" />
