@@ -28,7 +28,7 @@ The following data was captured using a packet sniffer tool and illustrates netw
 
 ---
 
-## Syn Flood Incident Report - Cybersecurity Incident Report
+## Syn Flood Incident Report — Cybersecurity Incident Report
 
 ## My Contributions
 
