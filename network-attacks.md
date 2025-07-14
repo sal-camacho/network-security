@@ -55,4 +55,5 @@ To mitigate future threats, the organization should:
 ## Screenshot of Completed Report  
 ![SYN Flood Screenshot](screenshots/syn-flood-log.png)
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
+
 <img width="581" height="777" alt="18" src="https://github.com/user-attachments/assets/f3a6e4d6-6d9e-4687-970d-da55636a3d01" />
