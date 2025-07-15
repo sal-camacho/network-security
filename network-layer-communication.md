@@ -36,4 +36,4 @@ The incident was reported at 1:24 p.m., when several customers experienced an er
 ![DNS Incident Report Screenshot](screenshots/dns-icmp-report.png)  
 > This image captures the full response submitted as part of the Google Cybersecurity Certificate incident report activity.
 
-<img width="584" height="777" alt="16" src="https://github.com/user-attachments/assets/acf239a3-32a1-4f85-85cd-906750f25e97" />
+<img width="573" height="783" alt="16" src="https://github.com/user-attachments/assets/2cf97866-8adc-493e-8cc4-fc344af97132" />
